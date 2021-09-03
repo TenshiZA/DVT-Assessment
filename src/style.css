@@ -1,3 +1,10 @@
+.welcome{
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+    margin: 50px auto;
+}
+
 .artist{
  border: 1px solid;
  width: 252px;

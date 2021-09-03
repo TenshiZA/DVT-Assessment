@@ -89,10 +89,7 @@ class ViewArtistPage extends Component {
 
        this.getArtistInfo();
         
-    }
-
-    
-
+    } 
    
 
     componentWillMount() {

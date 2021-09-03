@@ -26,11 +26,7 @@ class ArtistsPage extends Component {
 
     constructor(props){
         super(props);
-
-        console.log(this.props,"the props");
-        console.log(this.props.match.params.searchTerm,"the term");
-        this.searchArtists();
-        
+        this.searchArtists();        
     }
 
     state = { 
@@ -49,6 +45,7 @@ class ArtistsPage extends Component {
           this.setState ({
             searchTerm : this.props.match.params.searchTerm,
           })
+
         });
       }
       componentWillUnmount() {

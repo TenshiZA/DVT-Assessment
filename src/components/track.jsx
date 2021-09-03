@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { useHistory, withRouter } from "react-router-dom";
 
 const Track = ({
     id,
