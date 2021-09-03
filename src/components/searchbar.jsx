@@ -6,8 +6,7 @@ const SearchBar = () => {
 
     const [searchText, setSearchText] = useState('');
   
-    const handleClick = () => { 
-        console.log("search clicked");    
+    const handleClick = () => {  
         history.push("/search_results/" + searchText);
     };
 
