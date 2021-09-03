@@ -1,0 +1,167 @@
+.artist{
+ border: 1px solid;
+ width: 252px;
+ margin: 40px;
+ padding-bottom: 10px;
+ float : left;
+ cursor:pointer;
+
+}
+
+.artist:hover{
+   background: chocolate;
+   
+   }
+
+.artistPicture{
+    width: auto;
+    height: 250px;
+    background-color: aqua;
+}
+
+.artistName{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 3px 10px 0px;
+    
+
+}
+
+.artistNumberOfFans{
+    font-size: 14px;
+    margin: 3px 10px 0px;
+
+}
+
+.v_Artist{
+    position: relative;
+    width: 70%;
+    float:left;
+}
+
+.v_Artist_info{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.v_ArtistName{
+    font-size:40px;
+    color: #FFF;
+   
+}
+
+.v_artistNumberOfFans{
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.v_ArtistPicture{
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.v_ArtistPicture > img{
+   position:absolute;
+   top: -50%;
+}
+
+.v_ArtistTrackHolder{
+    width:80%;
+    margin: 0 auto;
+}
+
+.topTracks{
+    float:right;
+    width: 30%;
+}
+
+.topTracksTitle{
+    font-size: 16px;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.track{
+    width: 100%;
+    margin: 28px 10px;
+}
+
+.trackTitle{
+    float: left;
+}
+
+.trackDuration{
+ float: right;
+}
+
+.clear {
+    clear:both;
+}
+
+
+.Albums{
+    width: 80%;
+    margin: 20px auto 0px;
+
+}
+
+.albumheader{
+    margin: 20px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.Album{
+    width: 252px;
+    float: left;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+.AlbumTitle{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.AlbumRelease{
+    font-size: 14px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+   
+    .v_Artist{
+        position: relative;
+        width: 90%;
+        float:none;
+        margin-bottom: 30px;
+        
+    }
+
+    .topTracks{
+        float:none;
+        width: 90%;
+    }
+
+    .v_Artist_info {
+        position: relative;
+        top:0px;
+        bottom:0px;
+      
+    }
+
+    .v_ArtistName{
+        color:#000;
+        margin-top: 30px;
+    }
+
+    .v_artistNumberOfFans{
+        color: #000;
+    }
+
+  }
